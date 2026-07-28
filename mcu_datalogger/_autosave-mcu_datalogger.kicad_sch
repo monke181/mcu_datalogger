@@ -2834,6 +2834,12 @@
 		(uuid "3295badc-f492-4da6-b1d0-86191651ae64")
 	)
 	(junction
+		(at 114.3 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43a415c4-d1e6-4e13-b369-223a050d5ede")
+	)
+	(junction
 		(at 198.755 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3155,6 +3161,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 29.21) (xy 119.38 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e29515-3bf8-4507-8123-6935a2c8226b")
+	)
+	(wire
+		(pts
 			(xy 240.03 62.23) (xy 245.11 62.23)
 		)
 		(stroke
@@ -3322,6 +3338,16 @@
 			(type default)
 		)
 		(uuid "4bdc7529-be11-400e-b570-05a8bb0b22ce")
+	)
+	(wire
+		(pts
+			(xy 114.3 24.13) (xy 114.3 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d50cfbf-d64f-4296-8b0c-1bcb0c59c426")
 	)
 	(wire
 		(pts
@@ -3725,16 +3751,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 29.21) (xy 92.71 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d9ef635-eef0-4478-b412-b397a640b6b9")
-	)
-	(wire
-		(pts
 			(xy 182.88 62.23) (xy 191.77 62.23)
 		)
 		(stroke
@@ -3865,7 +3881,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 29.21) (xy 119.38 29.21)
+			(xy 105.41 29.21) (xy 114.3 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4202,6 +4218,16 @@
 			(type default)
 		)
 		(uuid "e6962476-4b64-494c-8c75-b8e200588d98")
+	)
+	(wire
+		(pts
+			(xy 85.09 29.21) (xy 92.71 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ae05f5-e753-4971-b6b8-539d6a42595c")
 	)
 	(wire
 		(pts
@@ -8076,6 +8102,84 @@
 			(project "mcu_datalogger"
 				(path "/a5eb1aa5-7aee-49fe-b581-e226e7c76087"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 114.3 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8a1d3e7-dec7-4db2-a1f2-5db1c7cc8662")
+		(property "Reference" "#FLG03"
+			(at 114.3 22.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 114.3 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 114.3 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a68b383-5929-469f-bd57-41efe3df89d0")
+		)
+		(instances
+			(project "mcu_datalogger"
+				(path "/a5eb1aa5-7aee-49fe-b581-e226e7c76087"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
