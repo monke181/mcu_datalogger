@@ -2607,7 +2607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 168.91 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2873,7 +2873,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 168.91 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,7 +2955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 101.6 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3037,7 +3037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 243.84 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3499,7 +3499,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "16 MHz"
 			(at 184.15 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3681,7 +3681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 107.95 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3762,7 +3762,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 180.34 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3843,7 +3843,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 123.19 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4164,7 +4164,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 30.48 45.72 0)
+		(at 30.48 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4175,23 +4175,25 @@
 		(fields_autoplaced yes)
 		(uuid "99ef2887-b1be-419c-b5b1-c1a87eebb8d4")
 		(property "Reference" "Y1"
-			(at 30.48 38.1 0)
+			(at 34.29 44.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
-			(at 30.48 40.64 0)
+		(property "Value" "32.768 KHz"
+			(at 34.29 46.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4265,7 +4267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 95.25 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4538,7 +4540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 90.17 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4699,7 +4701,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 250.19 39.37 0)
+		(at 247.65 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4710,7 +4712,7 @@
 		(fields_autoplaced yes)
 		(uuid "d68c05fd-7b14-48d4-9cdf-ce24abaaa445")
 		(property "Reference" "C5"
-			(at 254 37.2109 0)
+			(at 251.46 37.2109 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4720,8 +4722,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 254 39.7509 0)
+		(property "Value" "100nF"
+			(at 251.46 39.7509 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4732,7 +4734,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.1552 43.18 0)
+			(at 248.6152 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4743,7 +4745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 39.37 0)
+			(at 247.65 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4754,7 +4756,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 250.19 39.37 0)
+			(at 247.65 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4781,7 +4783,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 184.15 91.44 90)
+		(at 182.88 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4792,7 +4794,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee118495-d37e-4632-a46e-96278f368106")
 		(property "Reference" "R7"
-			(at 184.15 85.09 90)
+			(at 182.88 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4801,8 +4803,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 184.15 87.63 90)
+		(property "Value" "10K"
+			(at 182.88 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4812,7 +4814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 93.218 90)
+			(at 182.88 88.138 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4823,7 +4825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 91.44 0)
+			(at 182.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4834,7 +4836,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 184.15 91.44 0)
+			(at 182.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4881,7 +4883,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 165.1 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
